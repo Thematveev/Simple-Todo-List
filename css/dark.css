@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(27, 28, 42);
+}
+
+.header {
+    background-image: url('../img/bg.jpg');
+}
+
+.app-title {
+    color: rgb(27, 28, 42);
+}
+
+.task-input {
+    background-color: rgb(27, 28, 42);
+    color: white;
+}
+
+.submit-btn {
+    color: white;
+    background: linear-gradient(330deg, rgb(80, 60, 0) 36%, rgb(141, 172, 0) 61%);
+}
+
+.submit-btn:hover {
+    background: linear-gradient(220deg, rgb(80, 60, 0) 36%, rgb(141, 172, 0) 61%);
+}
+
+
+
+/* LIST STYLES */
+
+
+.list {
+    background-color: rgb(27, 28, 42);
+    box-shadow: 2px 2px 5px 1px rgba(109,109,109,0.84);
+}
+
+
+.list-item {
+    border-bottom: 1px solid rgba(92, 92, 92, 0.742);
+    color: white;
+}
+
+.inner-mark {
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.inner-mark:hover {
+    border: 1px solid rgb(96, 96, 255);
+}
+
+
+.inner-checkbox:checked + .inner-mark {
+    background-color: rgb(96, 96, 255);
+    background-image: url('../img/check-mark.png');
+}
+
+
+.item-delete {
+    background-image: url('../img/close.png');
+}
+
+.list-item:hover .item-delete {
+    display: block;
+}

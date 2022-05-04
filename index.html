@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/dark.css"> -->
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <h1 class="app-title">Todo</h1>
+
+            <form class="input-form">
+                <input type="text" class="task-input" placeholder="Your text here">
+                <input type="submit" value="ADD" class="submit-btn">
+            </form>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <ul class="list">
+                <li class="list-item" style="display: none;">
+                    <div class="item-icon">
+                        
+                        <label class="checkbox">
+                            <input type="checkbox" class="inner-checkbox">
+                            <span class="inner-mark"></span>
+                        </label>
+
+                    </div>
+                    <span class="item-text">Buy some milk</span>
+                    <div class="item-icon">
+                        <button class="item-delete"></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/darkmode.js"></script>
+</body>
+</html>
